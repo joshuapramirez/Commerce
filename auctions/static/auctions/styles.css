@@ -1,0 +1,33 @@
+body {
+  padding: 10px;
+}
+
+.listing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Increase or decrease this value as desired */
+}
+
+.image-container {
+  width: 225px;
+  height: 225px;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Increase or decrease this value as desired */
+}
+
+.details-container p,
+.details-container h4 {
+  margin: 0;
+}
